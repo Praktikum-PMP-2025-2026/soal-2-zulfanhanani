@@ -14,7 +14,7 @@
     if (n % 2 == 0){
         (*langkah)++;
         transformasi(n/2, langkah);
-    }else if (n % 2 == 1 & n > 1){
+    }else if (n % 2 == 1 && n > 1){
         (*langkah)++;
         transformasi(3*n+1, langkah);
     }else{
