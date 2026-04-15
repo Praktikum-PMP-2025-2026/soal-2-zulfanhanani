@@ -2,14 +2,13 @@
  *   Modul               : 1
  *   Hari dan Tanggal    : 15 April 2026
  *   Nama (NIM)          : Zulfan Hanani (13224105)
- *   Nama File           : soal1.c
- *   Deskripsi           : KODE BATU STABIL
+ *   Nama File           : soal2.c
+ *   Deskripsi           : Kode Batu Stabil
  *                         Membuat program untuk menentukan jumlah langkah pada transformasi sebuah bilangan hingga ke angka 1
  * 
  */
 
  #include <stdio.h>
- #include <string.h>
 
  void transformasi(int n, int *langkah){
     if (n % 2 == 0){
