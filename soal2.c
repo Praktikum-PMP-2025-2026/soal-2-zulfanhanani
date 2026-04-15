@@ -32,8 +32,7 @@
     }
     for (int i = 0; i < T; i++){
         transformasi(n[i], &langkah[i]);
-        printf("\nLANGKAH %d\n", langkah[i]);
+        printf("LANGKAH %d\n", langkah[i]);
     }
     return 0;
  }
- 
